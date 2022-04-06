@@ -1,0 +1,11 @@
+{
+  "name": "desafiojs",
+  "version": "1.0.0",
+  "description": "att avaliativa da materia de NODEJS",
+  "main": "main.js",
+  "scripts": {
+    "dev":"node main.js"
+  },
+  "author": "Kevin Oliveira",
+  "license": "ISC"
+}
