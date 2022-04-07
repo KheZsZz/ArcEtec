@@ -1,17 +1,88 @@
 import random
-
+theme = "Primeiros socorros / Corpo Humano"
 quiz = [
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
-  {'Pergunta':'A', 'r1': 'p1', 'r2':'nn', 'r3':'nn', 'r4':'nn'},
+  {
+    'Pergunta':'Quantos ossos tem em média o corpo humano?', 
+    'r1':'206 ossos', 
+    'r2':'195 ossos', 
+    'r3':'210 ossos', 
+    'r4':'197 ossos'
+  },
+  
+  {
+    'Pergunta':'O que são artérias?', 
+    'r1':'São vasos sanguíneos que garantem o transporte do sangue do coração para os diferentes tecidos do corpo', 
+    'r2':'São vasos sanguíneos que garantem o transporte do sangue dos tecidos para o coração', 
+    'r3':'São vasos que apresentam paredes finas', 
+    'r4':'São vasos que transporta sangue em baixa pressão'
+  },
+  
+  {
+    'Pergunta':'Qual a maior artéria do corpo humano?', 
+    'r1':'Artéria aorta', 
+    'r2':'Artérias femorais:', 
+    'r3':'Artérias carótidas', 
+    'r4':'Artéria pulmonar'
+  },
+  
+  {
+   'Pergunta':'O que significa OVACE?', 
+   'r1':'Obstrução de Vias Aérias por Corpos Estranos', 
+   'r2':'Obstrução de Vias Aerobicas por Comportamentos Estranhos', 
+   'r3':'Obstrução Visual Atrofica por Confecção Excêntrica', 
+   'r4':'Obstrução Visual Anti-Corpotamental Escalonavel'
+  },
+  
+  {
+    'Pergunta':'Ao socorrer uma vitima de queimadura de 1° e 2° grau, o que é necessário fazer?', 
+    'r1':'Cobrir as queimaduras com gase molhada em soro ou água fria, e trocando conforme for aquecendo.', 
+    'r2':'Cobrir as queimaduras com gase molhada em soro ou água quente, e trocando conforme for esfriando.', 
+    'r3':'Esfregar até que a pele morta saia, e estourar todas as bolhas', 
+    'r4':'Passar pasta de dente'
+  },
+  
+  {
+    'Pergunta':'Qual manobra é utilizada para desengasgar uma pessoa?', 
+    'r1':'Heimlich', 
+    'r2':'FAB e FAF', 
+    'r3':'Estancamento', 
+    'r4':'RCP'
+  },
+  
+  {
+    'Pergunta':'Ao socorre uma vitima de FAB o que é essencial fazer?', 
+    'r1':'Ligar para o socorro especializado, não remover o objeto cravado, fazer compressa e imobilização do objeto e manter a vitima deitada imovel.',
+    'r2':'Remover o objeto cravado, e fazer estancamento, ligar para socorro especializado', 
+    'r3':'Remover o objeto cravado e levantar a vitima e levala para o hospital mais proximo', 
+    'r4':'Ligar para o socorro especializado e lateralizar a vitima.'
+  },
+  
+  {
+    'Pergunta':'Quando a um acedente de transito se a vitima for para em baixo do veico ou ficar presso em algum lugar para quem ligar?', 
+    'r1':'193 - Corpo de Bombeiros', 
+    'r2':'190 - Policia Militar', 
+    'r3':'192 - SAMU', 
+    'r4':'199 - Defesa Civil'
+  },
+  
+  {
+    'Pergunta':'Qual Norma Técnica fala sobre trabalho em altura?', 
+    'r1':'NR35', 
+    'r2':'NR20', 
+    'r3':'NR16', 
+    'r4':'NR28'
+  },
+  
+  {
+    'Pergunta':'Ao se deparar com um incêndio em equipamentos eletricos qual a melhor categoria de extintores a ser utilizada?', 
+    'r1':'Categoria C (Extintor de CO²) ', 
+    'r2':'Categoria A (Extintor de água)', 
+    'r3':'Categoria B (Extintor de pó quimico)', 
+    'r4':'Categoria D (Extintor de pó especifico para cada tipo de materiais)'
+  },
 ]
+
+print('\n' + theme);
 
 contador = 0
 i = 0 # Indice
