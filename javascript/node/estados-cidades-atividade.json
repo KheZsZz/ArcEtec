@@ -1,4 +1,5 @@
-[{
+[
+{
   "nome": "Alagoas",
   "cidades": [
     "Acrelândia",
@@ -22,12 +23,7 @@
     "Sena Madureira",
     "Senador Guiomard",
     "Tarauacá",
-    "Xapuri"
-  ]
-},
-{
-  "nome": "Alagoas",
-  "cidades": [
+    "Xapuri",
     "Água Branca",
     "Anadia",
     "Arapiraca",
